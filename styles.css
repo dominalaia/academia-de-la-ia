@@ -1,0 +1,67 @@
+/* Estilos Generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #007BFF;
+  color: white;
+  padding: 1rem 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('https://via.placeholder.com/1920x500') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.programs, .events, .contact {
+  padding: 2rem 1rem;
+}
+
+.program-list, .event-list {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.program, .event {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 30%;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
